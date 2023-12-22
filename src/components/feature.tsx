@@ -6,7 +6,7 @@ const Feature: React.FC<FeatureProps> = ({ icon, link, title, description }) => 
         <a href={link}>
             <img src={icon} alt="Feature Icon" />
             <h3>{title}</h3>
-            <p>{description}</p>
+            <p className='body-md w400'>{description}</p>
         </a>
     );
 }
