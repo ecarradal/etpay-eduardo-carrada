@@ -4,7 +4,7 @@ import Tool from './tool'
 
 const Tools = () => {
   return (
-    <div>
+    <div className='container wrap justify-center space-around tools-container'>
       {
         toolsData.map((tool, index) => (
             <Tool key={index} {...tool} />

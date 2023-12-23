@@ -4,7 +4,7 @@ import featuresData from '../constants/featuresData'
 
 const Features = () => {
   return (
-    <div>
+    <div className='container wrap features-container'>
       {featuresData.map((feature, index) => (
         <Feature key={index} {...feature} />
       ))}

@@ -2,14 +2,17 @@ import React from 'react'
 
 const Registration = () => {
     return (
-        <div>
-            <h1>
+        <div className='container flex-column justify-center'>
+            <h1 className='display'>
                 Event Registration Reimagined
             </h1>
-            <p>
+            <br/>
+            <p className='body'>
                 Manage your event registrations hassle free and without any dependency with the technical team. Isn’t it sounds amazing?
             </p>
-            <button>
+            <br/>
+            <br/>
+            <button className='button btn-primary'>
                 Get Early Access
             </button>
         </div>

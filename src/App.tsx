@@ -10,13 +10,17 @@ import ToolsDescription from './components/toolsDescription';
 function App() {
   return (
     <Layout>
-      <main className='container flex-column'>
-        <Registration />
-        <Cards />
+      <main className='container flex-column justify-center align-center'>
+        <div className='container registration-container'>
+          <Registration />
+          <Cards />
+        </div>
         <Demo />
         <Features />
-        <ToolsDescription />
-        <Tools />
+        <div className='container tools-info'>
+          <ToolsDescription />
+          <Tools />
+        </div>
       </main>
     </Layout>
   );
