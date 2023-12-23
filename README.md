@@ -2,6 +2,10 @@
 
 Technical frontend test for etpay
 
+## Demo
+
+Check out the live demo [here](https://etpay-eduardo-carrada.vercel.app/).
+
 ## Requirements
 
 Make sure you have Node.js installed on your system. It is recommended to use Node.js v20 or higher.
